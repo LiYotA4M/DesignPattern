@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd4528f9-ad11-47df-ae7c-e4284502153c" name="Default Changelist" comment="" />
+    <list default="true" id="fd4528f9-ad11-47df-ae7c-e4284502153c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/p16mediator/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16mediator/ColleagueButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16mediator/ColleagueCheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16mediator/ColleagueTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16mediator/LoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16mediator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16mediator/Mediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyNote" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNote" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/common/ec-oss-dddcommon" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,6 +52,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\DesignPattern" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,13 +70,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p15facade.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="p15facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p16mediator.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p16mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -101,7 +131,25 @@
       <workItem from="1572701342101" duration="998000" />
       <workItem from="1573090450100" duration="446000" />
       <workItem from="1573172423328" duration="5666000" />
+      <workItem from="1573178877520" duration="290000" />
+      <workItem from="1573571246781" duration="608000" />
+      <workItem from="1574038911095" duration="7199000" />
     </task>
+    <task id="LOCAL-00001" summary="设计模式">
+      <created>1573178915584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573178915584</updated>
+    </task>
+    <task id="LOCAL-00002" summary="学习笔记存储位置更改；">
+      <created>1573179063733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573179063733</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +167,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="设计模式" />
+    <MESSAGE value="学习笔记存储位置更改；" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习笔记存储位置更改；" />
   </component>
 </project>

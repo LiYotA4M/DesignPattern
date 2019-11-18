@@ -247,3 +247,20 @@
     4、优点：
         a. 使API变少，方便调用和维护
         b. 在庞大的系统中，递归使用Facade容易避免代码堆积
+
+
+十六、仲裁者模式(Mediator)：裁决集中
+    1、定义：给多个对象提供一个中介类，用以处理不同对象之间的通信，并支持松耦合，使得代码容易维护。属于行为型模型
+    2、所需角色：
+        a. Mediator(裁决者)：负责定义与Colleague进行通信和做出决定的接口(API)
+        b. ConcreteMediator(具体裁决者)：实现Mediator接口的具体流程
+        c. Colleague(参与者)：负责定义与Mediator进行通信的接口
+        d. ConcreteColleague(具体参与者)：实现Colleague接口
+    3、操作流程：
+        a. 按需划分Colleague
+        b. 定义并实现对应的Mediator，规定相应的通信接口
+        c. 将各个Colleague与Mediator进行绑定
+        d. Mediator按相应的场景，通过通信接口与Colleague进行指挥
+    4、优点：
+        a. 流程集中化，便于日后bug的排查
+        b. 通信集中管理，便于拓展
