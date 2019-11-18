@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4528f9-ad11-47df-ae7c-e4284502153c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p16mediator/Colleague.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p16mediator/ColleagueButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p16mediator/ColleagueCheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p16mediator/ColleagueTextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p16mediator/LoginFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p16mediator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p16mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17observer/DigitalObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17observer/GraphObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17observer/NumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17observer/RandomNumberGeneratoe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyNote" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/Note" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p15facade.Main" />
       <module name="DesignPattern" />
@@ -97,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p17observer.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p17observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p14chainofresponsibility.Main" />
       <module name="DesignPattern" />
@@ -112,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -133,7 +147,7 @@
       <workItem from="1573172423328" duration="5666000" />
       <workItem from="1573178877520" duration="290000" />
       <workItem from="1573571246781" duration="608000" />
-      <workItem from="1574038911095" duration="7199000" />
+      <workItem from="1574038911095" duration="12526000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1573178915584</created>
@@ -149,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573179063733</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mediator裁决者模式；">
+      <created>1574046277187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574046277187</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式" />
     <MESSAGE value="学习笔记存储位置更改；" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习笔记存储位置更改；" />
+    <MESSAGE value="Mediator裁决者模式；" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mediator裁决者模式；" />
   </component>
 </project>
