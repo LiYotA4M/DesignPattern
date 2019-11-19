@@ -284,3 +284,16 @@
     6、区别：
         a. Observer是被动接受状态变化的数据
         b. Visitor则是主动进入对象中获取所需数据，从而进一步进行处理
+
+
+十八、备忘录模式(Memento)：保存对象的状态
+    1、定义：引入表示实例状态的角色，用以防止在保存和恢复实例时破坏对象的封装性。属性行为型模型
+    2、所需角色：
+        a. Originator(生成者)：需要进行备份的对象，相当于本体
+        b. Memento(备份)：Originator在各个阶段下的备份，一般不会向外部公开这些信息
+            可分为 wide interface：用于Originator的数据恢复
+                   narrow interface：对外提供信息，通过合理封装，防止泄密
+        c. Caretaker(负责人)：对Originator和Memento进行调控
+    3、优点：
+        a. 能够有效封装，保证了程序的容错性
+        b. 合理利用Java的封装特性，保证了信息安全
