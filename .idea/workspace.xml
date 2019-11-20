@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4528f9-ad11-47df-ae7c-e4284502153c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p18memento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p18memento/game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p18memento/game/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p19state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p19state/DayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p19state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p19state/NightState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p19state/SafeFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p19state/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyNote" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNote" afterDir="false" />
     </list>
@@ -66,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p15facade.Main" />
       <module name="DesignPattern" />
@@ -120,11 +123,12 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p14chainofresponsibility.Main" />
+      <option name="MAIN_CLASS_NAME" value="p19state.Main" />
       <module name="DesignPattern" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=gbk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p14chainofresponsibility.*" />
+          <option name="PATTERN" value="p19state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +136,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +169,8 @@
       <workItem from="1573178877520" duration="290000" />
       <workItem from="1573571246781" duration="608000" />
       <workItem from="1574038911095" duration="13330000" />
-      <workItem from="1574123826948" duration="5484000" />
+      <workItem from="1574123826948" duration="5624000" />
+      <workItem from="1574142297340" duration="6978000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1573178915584</created>
@@ -188,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574063868265</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Memento备忘录模式；">
+      <created>1574129339146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574129339147</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +231,7 @@
     <MESSAGE value="学习笔记存储位置更改；" />
     <MESSAGE value="Mediator裁决者模式；" />
     <MESSAGE value="Observer观察者模式；" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer观察者模式；" />
+    <MESSAGE value="Memento备忘录模式；" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memento备忘录模式；" />
   </component>
 </project>
