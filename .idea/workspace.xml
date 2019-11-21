@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4528f9-ad11-47df-ae7c-e4284502153c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p21proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p21proxy/PrintProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p21proxy/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p21proxy/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p22command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p22command/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p22command/command/MacroCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p22command/drawer/DrawCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p22command/drawer/DrawCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p22command/drawer/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p24interpreter/CommandListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p24interpreter/CommandNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p24interpreter/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p24interpreter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p24interpreter/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p24interpreter/ParseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p24interpreter/PrimitiveCommandNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p24interpreter/ProgramNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p24interpreter/RepeatCommandNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyNote" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNote" afterDir="false" />
     </list>
@@ -67,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p21proxy.Main" />
       <module name="DesignPattern" />
@@ -81,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p17observer.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p22command.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p17observer.*" />
+          <option name="PATTERN" value="p22command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p18memento.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p24interpreter.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p18memento.*" />
+          <option name="PATTERN" value="p24interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +180,9 @@
       <workItem from="1574038911095" duration="13330000" />
       <workItem from="1574123826948" duration="5624000" />
       <workItem from="1574142297340" duration="6978000" />
-      <workItem from="1574209544234" duration="4745000" />
+      <workItem from="1574209544234" duration="5760000" />
+      <workItem from="1574231474106" duration="4651000" />
+      <workItem from="1574300109316" duration="5043000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1573178915584</created>
@@ -220,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574212125782</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Proxy代理模式；">
+      <created>1574214540516</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574214540516</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +267,7 @@
     <MESSAGE value="Memento备忘录模式；" />
     <MESSAGE value="State状态模式；" />
     <MESSAGE value="Flyweight享元模式；" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flyweight享元模式；" />
+    <MESSAGE value="Proxy代理模式；" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy代理模式；" />
   </component>
 </project>
