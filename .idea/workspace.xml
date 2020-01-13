@@ -2,29 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4528f9-ad11-47df-ae7c-e4284502153c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p22command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p22command/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p22command/command/MacroCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p22command/drawer/DrawCanvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p22command/drawer/DrawCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p22command/drawer/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p24interpreter/CommandListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p24interpreter/CommandNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p24interpreter/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p24interpreter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p24interpreter/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p24interpreter/ParseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p24interpreter/PrimitiveCommandNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p24interpreter/ProgramNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p24interpreter/RepeatCommandNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyNote" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p08abstractfactory/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p08abstractfactory/factory/Factory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -49,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/common/ec-oss-dddcommon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -182,7 +181,15 @@
       <workItem from="1574142297340" duration="6978000" />
       <workItem from="1574209544234" duration="5760000" />
       <workItem from="1574231474106" duration="4651000" />
-      <workItem from="1574300109316" duration="5043000" />
+      <workItem from="1574300109316" duration="5861000" />
+      <workItem from="1574642821361" duration="364000" />
+      <workItem from="1577430259707" duration="1354000" />
+      <workItem from="1577492947179" duration="1507000" />
+      <workItem from="1577548756098" duration="76000" />
+      <workItem from="1577587064018" duration="629000" />
+      <workItem from="1577669828339" duration="11000" />
+      <workItem from="1578883146660" duration="254000" />
+      <workItem from="1578899626417" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1573178915584</created>
@@ -240,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574214540516</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Command命令模式；&#10;Interpreter解释器模式；">
+      <created>1574305370420</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574305370420</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +282,7 @@
     <MESSAGE value="State状态模式；" />
     <MESSAGE value="Flyweight享元模式；" />
     <MESSAGE value="Proxy代理模式；" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proxy代理模式；" />
+    <MESSAGE value="Command命令模式；&#10;Interpreter解释器模式；" />
+    <option name="LAST_COMMIT_MESSAGE" value="Command命令模式；&#10;Interpreter解释器模式；" />
   </component>
 </project>

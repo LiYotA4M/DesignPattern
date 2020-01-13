@@ -1,7 +1,7 @@
 package p08abstractfactory.factory;
 
 public interface Factory {
-     static Factory getFactory(String classname) {
+    static Factory getFactory(String classname) {
         Factory factory = null;
         try {
             // p08abstractfactory.listfactory.ListFactory
