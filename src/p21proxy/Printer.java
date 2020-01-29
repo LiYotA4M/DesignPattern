@@ -5,7 +5,7 @@ public class Printer implements Printable {
     public Printer() {
         heavyJob("正在生成Printer实例");
     }
-    public Printer(String name) {
+    protected Printer(String name) {
         this.name = name;
         heavyJob("正在生成Printer实例(" + name + ")");
     }
