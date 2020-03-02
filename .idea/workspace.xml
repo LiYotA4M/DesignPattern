@@ -4,7 +4,6 @@
     <list default="true" id="fd4528f9-ad11-47df-ae7c-e4284502153c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyNote" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNote" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/p02adapter/classadapter/PrintBanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/p02adapter/classadapter/PrintBanner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +233,7 @@
       <workItem from="1582287420433" duration="22000" />
       <workItem from="1582291247107" duration="88000" />
       <workItem from="1582976273363" duration="2214000" />
-      <workItem from="1583109723014" duration="1658000" />
+      <workItem from="1583109723014" duration="2104000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1573178915584</created>
@@ -313,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580263039176</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="适配器模式和代理模式的总结">
+      <created>1583111398054</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583111398054</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +349,8 @@
     <MESSAGE value="Proxy代理模式；" />
     <MESSAGE value="Command命令模式；&#10;Interpreter解释器模式；" />
     <MESSAGE value="格式校正" />
-    <option name="LAST_COMMIT_MESSAGE" value="格式校正" />
+    <MESSAGE value="适配器模式和代理模式的总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配器模式和代理模式的总结" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580955405171">
@@ -354,10 +361,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1581647470599" />
-    <state x="372" y="22" key="CommitChangelistDialog2" timestamp="1580263038650">
+    <state x="372" y="22" key="CommitChangelistDialog2" timestamp="1583111397397">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="22" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1580263038650" />
+    <state x="372" y="22" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1583111397397" />
     <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1583110011365">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -398,10 +405,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1582287438547" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1580263046094">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1583111406294">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1580263046094" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1583111406294" />
     <state x="454" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1578967588672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
