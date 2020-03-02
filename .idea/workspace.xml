@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fd4528f9-ad11-47df-ae7c-e4284502153c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyNote" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/p02adapter/classadapter/PrintBanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/p02adapter/classadapter/PrintBanner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,9 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1T3uwigccJUKdjmnEcu3xNobjV6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -52,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo/concurrency_tools_practice" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,14 +66,14 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\DesignPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.PrintBanner">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p21proxy.Main" />
       <module name="DesignPattern" />
@@ -83,25 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p22command.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="DesignPattern" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p22command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p24interpreter.Main" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p24interpreter.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p20flyweight.Main" />
+      <option name="MAIN_CLASS_NAME" value="p14chainofresponsibility.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p20flyweight.*" />
+          <option name="PATTERN" value="p14chainofresponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +115,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p19state.Main" />
+      <option name="MAIN_CLASS_NAME" value="p12decorator.Main" />
       <module name="DesignPattern" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=gbk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p19state.*" />
+          <option name="PATTERN" value="p12decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintBanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p02adapter.classadapter.PrintBanner" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p02adapter.classadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +141,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (5)" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.PrintBanner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.PrintBanner" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +203,38 @@
       <workItem from="1578967694859" duration="335000" />
       <workItem from="1578968042667" duration="27000" />
       <workItem from="1579917811007" duration="831000" />
-      <workItem from="1580262351468" duration="649000" />
+      <workItem from="1580262351468" duration="4316000" />
+      <workItem from="1580351966038" duration="1033000" />
+      <workItem from="1580366166289" duration="1952000" />
+      <workItem from="1580434472222" duration="934000" />
+      <workItem from="1580458863718" duration="631000" />
+      <workItem from="1580520243744" duration="725000" />
+      <workItem from="1580545806456" duration="1413000" />
+      <workItem from="1580610631840" duration="618000" />
+      <workItem from="1580623357451" duration="1393000" />
+      <workItem from="1580627753092" duration="429000" />
+      <workItem from="1580647703715" duration="2578000" />
+      <workItem from="1580696952295" duration="3200000" />
+      <workItem from="1580712587053" duration="1840000" />
+      <workItem from="1580781604991" duration="994000" />
+      <workItem from="1580799790191" duration="1986000" />
+      <workItem from="1580953660516" duration="2585000" />
+      <workItem from="1580957669551" duration="6000" />
+      <workItem from="1581062747497" duration="132000" />
+      <workItem from="1581647449011" duration="3422000" />
+      <workItem from="1581749830541" duration="646000" />
+      <workItem from="1581816606342" duration="667000" />
+      <workItem from="1581836734826" duration="669000" />
+      <workItem from="1581989590858" duration="666000" />
+      <workItem from="1582161146404" duration="505000" />
+      <workItem from="1582162005233" duration="2382000" />
+      <workItem from="1582167680719" duration="11000" />
+      <workItem from="1582169758307" duration="1596000" />
+      <workItem from="1582249922457" duration="1027000" />
+      <workItem from="1582287420433" duration="22000" />
+      <workItem from="1582291247107" duration="88000" />
+      <workItem from="1582976273363" duration="2214000" />
+      <workItem from="1583109723014" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1573178915584</created>
@@ -271,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578899939880</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="格式校正">
+      <created>1580263039176</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580263039176</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,45 +346,73 @@
     <option name="LAST_COMMIT_MESSAGE" value="格式校正" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1578968067897">
+    <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580955405171">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1578968067897" />
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1580263017940">
+    <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1580955405171" />
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1581647470599">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580263017940" />
-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1580263017940">
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1581647470599" />
+    <state x="372" y="22" key="CommitChangelistDialog2" timestamp="1580263038650">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580263017940" />
-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1580263017940">
+    <state x="372" y="22" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1580263038650" />
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1583110011365">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580263017940" />
-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1580263017940">
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1583110011365" />
+    <state width="1493" height="137" key="GridCell.Tab.0.bottom" timestamp="1582980877906">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580263017940" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1580263017940">
+    <state width="1493" height="137" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582980877906" />
+    <state width="1493" height="137" key="GridCell.Tab.0.center" timestamp="1582980877906">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580263017940" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1580263017940">
+    <state width="1493" height="137" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582980877906" />
+    <state width="1493" height="137" key="GridCell.Tab.0.left" timestamp="1582980877906">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1580263017940" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1580263017940">
+    <state width="1493" height="137" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582980877906" />
+    <state width="1493" height="137" key="GridCell.Tab.0.right" timestamp="1582980877906">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1580263017940" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1580263017940">
+    <state width="1493" height="137" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582980877906" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1582161651108">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1580263017940" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582161651108" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1582161651108">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1582161651108" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1582161651108">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1582161651108" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1582161651108">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1582161651108" />
+    <state x="270" y="75" key="SettingsEditor" timestamp="1582287438547">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1582287438547" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1580263046094">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1580263046094" />
     <state x="454" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1578967588672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="454" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1578967588672" />
+    <state x="321" y="169" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582161546666">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="321" y="169" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.864@0.0.1536.864" timestamp="1582161546666" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1582977853062">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1582977853062" />
   </component>
 </project>
